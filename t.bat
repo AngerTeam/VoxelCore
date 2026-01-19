@@ -1,0 +1,1 @@
+g++ main.cpp "./src/*" -I "./include/" -o test.exe
