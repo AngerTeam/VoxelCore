@@ -24,3 +24,13 @@ extern "C" CompanyName::VoxelEngine::VoxelManager* GetVoxelManager(CompanyName::
 
     return core->manager;
 }
+
+extern "C" void ShowRendererStatus(CompanyName::Core* core)
+{
+    // STUB
+}
+
+extern "C" void ResetRenderer(CompanyName::Core* core)
+{
+    // STUB
+}
